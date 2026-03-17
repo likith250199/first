@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/likith250199/devops_first.git'
+                git 'https://github.com/likith250199/first.git'
             }
         }
 
